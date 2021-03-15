@@ -11,7 +11,10 @@ body {
     font-size: 10px;
 }
 
-
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
 /* Navbar section */
 
 .nav {
@@ -21,8 +24,10 @@ body {
     position: fixed;
     line-height: 65px;
     text-align: center;
+	/*min-width: 1250;*/
+	overflow:scroll;
 	z-index:2;
-}
+} 
 
 
 .nav div.main_list {
@@ -50,7 +55,7 @@ body {
 
 .nav div.main_list ul li a {
     text-decoration: none;
-    color: #3354FF;
+    color: #180F98;
     line-height: 65px;
     font-size: 2.4rem;
 }
