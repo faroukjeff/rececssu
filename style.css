@@ -26,6 +26,8 @@ body {
     text-align: center;
 	/*min-width: 1250;*/
 	overflow:scroll;
+	overflow-y:hidden;
+	white-space:nowrap;
 	z-index:2;
 } 
 
